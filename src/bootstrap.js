@@ -12,19 +12,19 @@ import './style/main.scss';
 import history from './history';
 
 import Layout from './components/layout';
-import SignIn from './components/auth/signin';
-import SignUp from './components/auth/signup';
+import Signin from './components/auth/signin';
+import Signup from './components/auth/signup';
 
 function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
-      <Router history={history} >
+      <Router history={history}>
         <Layout>
-              <Switch>
-                <Route path="/" exact component={SignIn}/>
-                <Route path="/signin" exact component={SignIn}/>
-                <Route path="/signup" exact component={SignUp}/>
-              </Switch>
+          <Switch>
+            <Route path='/' exact component={Signin}/>
+            <Route path='/signin' exact component={Signin}/>
+            <Route path='/signup' exact component={Signup}/>
+          </Switch>
         </Layout>
       </Router>
     </Provider>
