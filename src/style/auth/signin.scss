@@ -1,31 +1,42 @@
 .sign-in {
-    grid-row: content-s/content-e;
-    grid-column: s/e;
+  grid-row: content-s/content-e;
+  grid-column: s/e;
 
-    &__page-title {
-        
-    }
+  &__page-title {
+  }
 
-    &__form {
-        display: grid;
-        grid-template-rows: [email-s] 64px [email-e password-s] 64px [password-e] minmax(20px, 130px) [line-s] 2px [line-e login-s] 38px [login-e];
-    }
+  &__form {
+    display: grid;
+    grid-template-rows: [email-s] 64px [email-e password-s] 64px [password-e] minmax(
+        20px,
+        130px
+      ) [line-s] 2px [line-e login-s] 38px [login-e];
+    grid-template-columns: 1fr;  
+  }
 }
 
 .sign-in-form {
-    &__email {
-        grid-row: email-s/email-e;
-    }
-    &__password {
-        grid-row: password-s/password-e;
-        margin-top: 15px;
-    }
-    &__line {
-        grid-row: line-s/line-e;
-        border-top: 1px solid #ccc;
-    }
-    &__login {
-        grid-row: login-s/login-e;
-        margin-top: 39px;
-    }
+  & > * {
+      grid-column: 1/-1;
+  }
+  &__email {
+    grid-row: email-s/email-e;
+  }
+  &__password {
+    grid-row: password-s/password-e;
+    margin-top: 15px;
+  }
+  &__line {
+    grid-row: line-s/line-e;
+    border-top: 1px solid #ccc;
+  }
+  &__login {
+    grid-row: login-s/login-e;
+    margin-top: 39px;
+  }
+  &__details {
+    grid-row: 1/-1;
+    justify-self: end;
+    align-self: start;
+  }
 }
