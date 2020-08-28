@@ -1,10 +1,10 @@
 .form-input {
-    display: grid;
-    grid-gap: 6.5px;
+  display: grid;
+  grid-gap: 6.5px;
 
-    & > * {
-        padding-left: 20px;
-    }
+  & > * {
+    padding-left: 20px;
+  }
 
   &__label {
     font-size: 14px;
@@ -32,8 +32,12 @@
     color: white;
 
     &:focus {
-        outline: none;
+      outline: none;
     }
+  }
 
+  &__gray {
+    background-color: #999;
+    width: 137px;
   }
 }
