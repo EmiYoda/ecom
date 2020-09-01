@@ -17,12 +17,12 @@ body {
     color: #808080;
 }
 
-
+@import 'variables';
 @import 'layout';
 @import 'headernavbar';
 @import 'auth/signin';
 @import 'auth/signup';
 
-@import 'page-title.scss';
-@import 'form-fields.scss';
-@import 'details.scss';
+@import 'page-title';
+@import 'form-fields';
+@import 'details';
