@@ -8,9 +8,9 @@
 
     &__form {
         display: grid;
-        grid-template-rows: [name-s] 64px [name-e email-s] 64px [email-e space-s] 35px [space-e password-s] 64px [password-e confirm-s] 64px [confirm-e] minmax(20px, 41px) [line-s] 26px [line-e buttons-s] 38px [buttons-e];
+        grid-template-rows: [name-s] 64px [name-e email-s] 64px [email-e space-s] 35px [space-e password-s] 64px [password-e confirm-s] 64px [confirm-e] minmax(20px, 81px) [line-s] 26px [line-e buttons-s] 38px [buttons-e];
         grid-template-columns: [back-s] 137px [back-e space-s] 40px [space-e create-s] 1fr [create-e] 1fr;
-        grid-row-gap: 7px;
+        grid-row-gap: 15px;
     }
 }
 
@@ -20,7 +20,6 @@
     }
     &__name {
         grid-row: name-s/name-e;
-        margin-bottom: 10px;
     }
     &__email {
         grid-row: email-s/email-e;

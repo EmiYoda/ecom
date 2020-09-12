@@ -17,8 +17,11 @@
         & > * {
             transition: 0.5s ease-in-out;
             &:hover {
-                color: $base-green;
+                color: #00CB79;
             }
+        }
+        .details__item {
+            text-decoration-line: none;
         }
     }
 }

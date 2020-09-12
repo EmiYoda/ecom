@@ -6,13 +6,13 @@ class Header extends Component {
     render() {
         return (
             <div className='header'>
-                <img src='http://via.placeholder.com/50x50'/>
+                <img className='header__img' src='http://via.placeholder.com/50x50'/>
                 <div className='header__links'>
                 {
-                    this.props.headerLinks.map((links, index) => {
+                    this.props.headerLinks.map((link, index) => {
                         return (
                             <a className='header__link' key={index} onClick={() => console.log('trying to switch tab')}>
-                                {links.title}
+                                {link.title}
                             </a>
                         )
                     })
@@ -25,11 +25,11 @@ class Header extends Component {
 
 function mapStateToProps(state) {
     const{ headerLinks } = state.headerNavbar;
-    return {  
+    return {
         headerLinks
     }
 }
 
-Header = connect(mapStateToProps)(Header)
+Header = connect(mapStateToProps)(Header);
 
 export default Header;
