@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class PurchaseHistory extends Component {
     render() {
-        return(
+        return (
             <div>
-                Purchase history
+                purchase history
             </div>
         )
-    } 
+    }
 }
 
 export default PurchaseHistory;

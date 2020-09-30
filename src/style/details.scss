@@ -13,12 +13,8 @@
         font-size: 14px;
         display: grid;
         grid-row-gap: 10px;
-        cursor: pointer;
         & > * {
-            transition: 0.5s ease-in-out;
-            &:hover {
-                color: #00CB79;
-            }
+            text-decoration-line: underline;
         }
         .details__item {
             text-decoration-line: none;
