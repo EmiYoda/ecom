@@ -21,7 +21,7 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
+                    name: 'Emiliano Del Valle',
                     shippingAddress: '1234 West State Street'
                 }
             },
@@ -32,19 +32,19 @@ export function fetchUserPurchases() {
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Maxwell Nelson',
-                    shippingAddress: '1337 West State Street'
+                    name: 'Jorge Del Valle',
+                    shippingAddress: '2431 West State Street'
                 }
             },
             {
                 _id: 2,
-                total: 1.30,
+                total: 5.20,
                 orderNumber: 'B0048248343',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
-                    shippingAddress: '1234 West State Street'
+                    name: 'Karen Roa',
+                    shippingAddress: '5432 West State Street'
                 }
             },
             {
@@ -55,40 +55,40 @@ export function fetchUserPurchases() {
                 creditCard: '-0000',
                 user: {
                     name: 'Max Asher Nelson',
-                    shippingAddress: '1234 West State Street'
+                    shippingAddress: '4231 West State Street'
                 }
             },
             {
                 _id: 4,
-                total: 19.40,
-                orderNumber: 'A0048248343',
+                total: 20.30,
+                orderNumber: 'Rt415241ffwe',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
                     name: 'Jordan Hudgens',
-                    shippingAddress: '1234 West State Street'
+                    shippingAddress: '8172 West State Street'
                 }
             },
             {
                 _id: 5,
-                total: 19.40,
-                orderNumber: 'A0048248343',
+                total: 2.10,
+                orderNumber: 'B19283001928',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
-                    shippingAddress: '1234 West State Street'
+                    name: 'Jon Snow',
+                    shippingAddress: '0192 West State Street'
                 }
             },
             {
                 _id: 6,
-                total: 19.40,
-                orderNumber: 'A0048248343',
+                total: 6.20,
+                orderNumber: 'J617261863320',
                 orderDate: new Date().toDateString(),
                 creditCard: '-0000',
                 user: {
-                    name: 'Jordan Hudgens',
-                    shippingAddress: '1234 West State Street'
+                    name: 'Peter Parker',
+                    shippingAddress: '4321 West State Street'
                 }
             },
             {
