@@ -1,103 +1,90 @@
 .purchase-history {
-  &__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 37px 0;
-  }
-
-  &__page-title {
-    border-bottom: 1px solid #CCC;
-  }
-
-  &__border-bottom {
-    border-bottom: 1px solid #F2F2F2;
-  }
+    &__content {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        margin: 37px 0;
+    }
+    &__page-title {
+        border-bottom: 1px solid #CCC;
+    }
+    &__border-bottom {
+        border-bottom: 1px solid #F2F2F2;
+    }
 }
 
 .purchases {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, 80px);
-  width: 360px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 80px);
+    width: 360px;
 }
 
 .purchase-detail {
-  display: grid;
-  grid-template-columns: [s] 1fr [m] 1fr [e];
-  grid-template-rows: [s] 1fr [sm] 1fr [m-s] 25px [m-e] 1fr [me] 1fr [e];
-
-  &__order-date {
-    grid-column: s/m;
-    grid-row: s/sm;
-  }
-
-  &__order-number {
-    grid-column: s/m;
-    grid-row: sm/m-s;
-  }
-
-  &__shipping-address {
-    grid-column: s/m;
-    grid-row: m-e/e;
-  }
-
-  &__total {
-    grid-column: m/e;
-    grid-row: s/sm;
-  }
-
-  &__credit-card {
-    grid-column: m/e;
-    grid-row: sm/m-s;
-  }
-
-  &__track-shipment {
-    grid-column: m/e;
-    grid-row: m-e/me;
-  }
-
-  &__print-receipt {
-    grid-column: m/e;
-    grid-row: me/e;
-  }
-
-  &__print-receipt,
-  &__track-shipment {
-    width: 155px;
-    justify-self: center;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-    color: #00CB79;
-    font-size: 14px;
-    font-weight: 600;
-
-    &:hover {
-      color: #089869;
+    width: 600px;
+    display: grid;
+    grid-template-columns: [s] 1fr [m] 1fr [e];
+    grid-template-rows: [s] 1fr [sm] 1fr [m-s] 25px [m-e] 1fr [me] 1fr [e];
+    &__order-date {
+        grid-column: s/m;
+        grid-row: s/sm;
     }
-  }
+    &__order-number {
+        grid-column: s/m;
+        grid-row: sm/m-s;
+    }
+    &__shipping-address {
+        grid-column: s/m;
+        grid-row: m-e/e;
+    }
+    &__total {
+        grid-column: m/e;
+        grid-row: s/sm;
+    }
+    &__credit-card {
+        grid-column: m/e;
+        grid-row: sm/m-s;
+    }
+    &__track-shipment {
+        grid-column: m/e;
+        grid-row: m-e/me;
+    }
+    &__print-receipt {
+        grid-column: m/e;
+        grid-row: me/e;
+    }
+
+    &__print-receipt,
+    &__track-shipment {
+        width: 150px;
+        justify-self: center;
+        text-decoration-line: underline;
+        color: #00CB79;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
 }
 
 .purchase-detail-label {
-  display: grid;
-  grid-template-rows: [s] 1fr [e];
-  grid-template-columns: [s] 1fr [m] 1fr [e];
-  grid-gap: 10px;
+    display: grid;
+    grid-template-rows: [s] 1fr [e];
+    grid-template-columns: [s] 1fr [m] 1fr [e];
+    grid-gap: 10px;
 
-  & > * {
-    grid-row: s/e;
-  }
+    & > * {
+        grid-row: s/e;
+    }
 
-  &__title {
-    grid-column: s/m;
-    text-align: right;
-    font-weight: 600;
-    font-size: 15px;
-  }
-
-  &__value {
-    grid-column: m/e;
-    text-align: left;
-    color: #666666;
-    font-size: 14px;
-  }
+    &__title {
+        grid-column: s/m;
+        text-align: right;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    &__value {
+        grid-column: m/e;
+        text-align: left;
+        color: #666666;
+        font-size: 14px;
+    }
 }

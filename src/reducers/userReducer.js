@@ -6,15 +6,15 @@ import {
 const INITIAL_STATE = {
     purchases: [],
     purchaseDetail: {
-      _id: 0,
-      total: 0,
-      orderNumber: '',
-      orderDate: null,
-      creditCard: '',
-      user: {
-        name: '',
-        shippingAddress: ''
-      }
+        _id: -1,
+        total: 0,
+        orderNumber: '',
+        orderDate: null,
+        creditCard: '',
+        user: {
+            name: '',
+            shippingAddress: ''
+        }
     }
 }
 

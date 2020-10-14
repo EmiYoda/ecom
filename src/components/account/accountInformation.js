@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
 import PageTitle from '../pageTitle';
-import AccountInformationForm from './accountinformationForm'
+import AccountInformationForm from './accountInformationForm';
 
 class AccountInformation extends Component {
 
-  onSubmit = (fields) => {
-      console.log(fields);
-  }
+    onSubmit = (fields) => {
+        console.log(fields);
+    }
 
     render() {
         return (
