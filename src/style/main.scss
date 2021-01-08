@@ -24,14 +24,14 @@ body {
 @import 'form-fields';
 @import 'details';
 
-//* AUTH
+// AUTH 
 @import 'auth/signin';
 @import 'auth/signup';
 
-//* ACCOUNT
+// ACCOUNT
 @import 'account/account';
 @import 'account/purchase-history';
 @import 'account/account-information';
 
-//* SHOP
-@import 'shop/shop.scss'
+// SHOP
+@import 'shop/shop';

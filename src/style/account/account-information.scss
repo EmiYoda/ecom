@@ -49,42 +49,44 @@
     }
 
     &__change-password,
-      &__current {
+    &__current {
         grid-column: s/m;
-      grid-row: change-password-s/change-password-e;
-      transform: translateY(-38px);
+        grid-row: change-password-s/change-password-e;
+        transform: translateY(-38px);
     }
 
     &__new {
-      grid-column: s/m;
-      grid-row: new-s/new-e;
+        grid-column: s/m;
+        grid-row: new-s/new-e;  
     }
 
     &__confirm {
-      grid-column: s/m;
-      grid-row: confirm-s/confirm-e;
+        grid-column: s/m;
+        grid-row: confirm-s/confirm-e;
     }
 
-    &__new,
-    &__confirm{
-      transform: translateY(-25px);
+    &__new, 
+    &__confirm {
+        transform: translateY(-25px);
     }
 
     &__line {
-      grid-row: line-s/line-e;
-      grid-column: s/e;
-      border-top: 1px solid #ccc;
-      margin-bottom: 24px;
+        grid-row: line-s/line-e;
+        grid-column: s/e;
+        border-top: 1px solid #ccc;
+        margin-bottom: 24px;
     }
 
     &__cancel {
-      grid-column: cancel-s/cancel-e;
-      grid-row: buttons-s/buttons-e;
+        grid-column: cancel-s/cancel-e;
+        grid-row: buttons-s/buttons-e;
     }
 
     &__update-information {
-      grid-column: update-s/update-e;
-      grid-row: buttons-s/buttons-e;
+        grid-column: update-s/update-e;
+        grid-row: buttons-s/buttons-e;
+
     }
+
 
 }
