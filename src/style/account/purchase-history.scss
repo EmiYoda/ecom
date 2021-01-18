@@ -61,7 +61,7 @@
         color: #00CB79;
         font-size: 14px;
         font-weight: 600;
-        transition: 0.5s;
+        transition: 0.5s ease-in-out;
         cursor: pointer;
         &:hover {
             color: #0b935c;

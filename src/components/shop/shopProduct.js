@@ -6,12 +6,12 @@ class ShopProduct extends Component {
     render() {
         const { _id, title, description, price } = this.props;
         return (
-            <div className='shop_product'>
-            <div className='shop-product_title'>
+            <div className='shop-product'>
+            <div className='shop-product__title'>
                 {title}
             </div>
 
-            <div className='shop-product_description'>
+            <div className='shop-product__description'>
                 {description}
             </div>
             <GreenPriceTag className='shop-product__price' title={price}/>

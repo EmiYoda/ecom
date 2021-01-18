@@ -27,7 +27,7 @@
         cursor: pointer;
 
         & > * {
-            transition: 0.5s;
+            transition: 0.5s ease-in-out;
             grid-row: s/e;
             &:hover {
                 color: #06d381;
@@ -62,7 +62,7 @@
 
     & > * {
         grid-row: s/e;
-        transition: 0.5s;
+        transition: 0.5s ease-in-out;
         cursor: pointer;
         &:hover {
             color: #00CB79;

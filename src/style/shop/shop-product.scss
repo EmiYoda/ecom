@@ -1,0 +1,71 @@
+.shop-product {
+    height: 314px;
+    width: 240px;
+    background-color: white;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.1);
+
+    display: grid;
+    grid-template-rows: 15px [title-s] 30px [title-e description-s] 1fr [description-e price-s] 25px [price-e footer-s] 65px [footer-e] 15px;
+    grid-template-columns: 15px [s] 1fr [e] 15px;
+    justify-items: start;
+    grid-row-gap: 5.5px;
+
+    & > * {
+        grid-column: s/e;
+    }
+
+    &__title {
+        grid-row: title-s/title-e;
+
+        color: #00CB79;
+        font-family: 'Roboto Slab', serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__description {
+        grid-row: description-s/description-e;
+
+        font-size: 12px;
+        color:  #333333;
+    }
+
+    &__price {
+        grid-row: price-s/price-e;
+    }
+
+    &__quantity {
+        justify-self: start;
+        grid-row: footer-s/footer-e;
+    }
+
+    &__add-to-cart {
+        justify-self: end;
+        grid-row: footer-s/footer-e;
+
+        height: 40px;
+        width: 97px;
+        border-radius: 20px;
+        color: white;
+        background-color: #00CB79;
+        font-weight: 600;
+        font-size: 12px;
+
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(0.97);
+            font-size: 13px;
+        }
+
+        &:active {
+            transition: 0.1s ease-in-out;
+            transform: scale(0.94);
+            box-shadow: 2px 4px 4px rgb(38, 38, 38);
+        }
+    }
+}
