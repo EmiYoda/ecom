@@ -11,7 +11,7 @@ class ShopProduct extends Component {
                     <img className='shop-product__front__image' src='https://via.placeholder.com/220x220'/>
                     <div className='shop-product__front__title'>{title}</div>
                 </div>
-                
+
                 <div className='shop-product__back'>
                     <div className='shop-product__back__title'>
                         {title}
