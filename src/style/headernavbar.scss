@@ -40,7 +40,7 @@
 }
 
 .green-text {
-    color: #00CB79 !important;
+    color: $base-green !important;
 }
 
 .navbar {
@@ -56,7 +56,7 @@
     justify-content: center;
     grid-column-gap: 40px;
 
-    color: #E6E6E6;
+    color: $base-gray;
     font-size: 18px;
     font-weight: normal;
 
@@ -65,7 +65,7 @@
         transition: 0.5s ease-in-out;
         cursor: pointer;
         &:hover {
-            color: #00CB79;
+            color: $base-green;
         }
     }
 }
@@ -73,6 +73,6 @@
 .navbar_link {
     cursor: pointer;
     &:hover {
-        color: #00CB79;
+        color: $base-green;
     }
 }

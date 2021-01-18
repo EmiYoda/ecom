@@ -72,7 +72,7 @@
     &__title {
         grid-row: title-s/title-e;
 
-        color: #00CB79;
+        color: $base-green;
         font-family: 'Roboto Slab', serif;
         font-size: 16px;
         font-weight: 500;
@@ -102,7 +102,7 @@
         width: 97px;
         border-radius: 20px;
         color: white;
-        background-color: #00CB79;
+        background-color: $base-green;
         font-weight: 600;
         font-size: 12px;
 

@@ -18,6 +18,10 @@ body {
 }
 
 
+$base-green: #00CB79;
+$base-gray: #E6E6E6;
+
+
 @import 'layout';
 @import 'headernavbar';
 @import 'page-title';
@@ -43,4 +47,6 @@ body {
 
 // QUANTITY
 @import 'quantity';
-@import 'green-price-tag'
+@import 'green-price-tag';
+
+// Variables

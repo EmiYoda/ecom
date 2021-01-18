@@ -13,7 +13,7 @@
         box-sizing: border-box;
         height: 39px;
         width: 426px;
-        border: 1px solid #E6E6E6;
+        border: 1px solid $base-gray;
         border-radius: 20px;
         color: #333333;
         font-size: 18px;
@@ -25,7 +25,7 @@
         height: 38px;
         width: 243px;
         border-radius: 20px;
-        background-color: #00CB79;
+        background-color: $base-green;
 
         font-size: 16px;
         color: white;
