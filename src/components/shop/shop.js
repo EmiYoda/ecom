@@ -66,7 +66,7 @@ class Shop extends Component {
                     {
                         this.props.filteredProducts.map(product => {
                             return (
-                                <ShopProduct {...product} key={product._id} />
+                                <ShopProduct {...product} key={product._id}/>
                             )
                         })
                     }
