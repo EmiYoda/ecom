@@ -17,7 +17,7 @@ body {
     color: #808080;
 }
 
-
+// VARIABLES
 $base-green: #00CB79;
 $base-gray: #E6E6E6;
 
@@ -50,4 +50,5 @@ $base-gray: #E6E6E6;
 @import 'quantity';
 @import 'green-price-tag';
 
-// Variables
+// REVIEW
+@import 'order/review'
