@@ -2,6 +2,7 @@
     &__products {
         grid-row: products-s/products-e;
         grid-column: 1/-1;
+        overflow-y: scroll;
     }
 
     &__line {
