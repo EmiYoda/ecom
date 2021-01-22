@@ -13,6 +13,10 @@
         align-self: start;
         grid-row: s/m;
         grid-column: title-s/title-e;
+
+        font-size: 18px;
+        font-family: 'Encode Sans Semi Expanded', sans-serif;
+        color: $base-gray;
     }
 
     &__quantity {
@@ -27,6 +31,16 @@
         justify-self: start;
         grid-row: m/e;
         grid-column: remove-s/remove-e;
+
+        font-size: 14px;
+        cursor: pointer;
+        transition: .3s ease-in-out;
+
+        &:hover {
+            color: rgba(233, 29, 29, 0.783);
+            text-decoration-line: underline;
+            
+        }
     }
 
     &__price{
