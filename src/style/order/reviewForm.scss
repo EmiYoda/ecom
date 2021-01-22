@@ -3,6 +3,12 @@
         grid-row: products-s/products-e;
         grid-column: 1/-1;
         overflow-y: scroll;
+
+        display: grid;
+        grid-template-rows: repeat(auto-fit, 80px);
+        grid-row-gap: 12px;
+
+        // align-self: center;
     }
 
     &__line {
