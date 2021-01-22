@@ -1,5 +1,6 @@
 .review-form {   
     &__products {
+        grid-row: products-s/products-e;
         grid-column: 1/-1;
     }
 
