@@ -20,7 +20,6 @@ class ShippingForm extends Component {
                 name='name'
                 component={FormInput}/>
                 
-                <div className='shipping-form__line'></div>
 
                 <Field className='shipping-form__address'
                 type='address'
@@ -50,6 +49,7 @@ class ShippingForm extends Component {
                 name='zipcode'
                 component={FormInput}/>
 
+                <div className='shipping-form__line'></div>
 
                 <Field className='shipping-form__use-this-address'
                 onClick={() => history.push('/information/payment')}

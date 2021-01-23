@@ -43,6 +43,12 @@
     grid-template-rows: 30px 24px 24px 46px;
     grid-row-gap: 6px;
     
+    .underlined-title {
+        font-size: 16px;
+        font-weight: 600;
+        border-bottom: 1px solid #ccc;
+    }
+
     .info-title {
         &__value {
             justify-self: end;
