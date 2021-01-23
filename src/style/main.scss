@@ -59,3 +59,7 @@ $base-gray: #E6E6E6;
 @import 'order/review';
 @import 'order/reviewForm';
 @import 'order/reviewProduct';
+
+// INFORMATION 
+@import 'information/payment';
+@import 'information/shipping';
